@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background: #1FBD8A;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0px 5.69882px 9.49804px rgba(19, 40, 29, 0.098);
+}
+
+.header__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 48px;
+}
+
+.header__nav--link {
+  margin-right: 45px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.header__nav--link:last-child {
+  margin-right: 35;
+  margin-left: 240px;
+}
+
+.header__button {
+  background: #FFF;
+  color: #24475B;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.main {
+  background: #1FBD8A;
+  padding-bottom: 280px;
+}
+
+.main__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__span {
+  padding: 9px 15px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 33px;
+  color: #FFF;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.main__title {
+  font-size: 60px;
+  line-height: 80px;
+  color: #FFF;
+  max-width: 500px;
+  width: 100%;
+  margin-top: 17px;
+}
+
+.main__text {
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFF;
+  max-width: 530px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.main__buttons {
+  margin-top: 45px;
+}
+
+.main__button {
+  padding: 17px 90px;
+  background: #FFF;
+  color: #013A51;
+  font-size: 15px;
+  line-height: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.main__button--primary {
+  background: #192F44;
+  color: #FFF;
+}
+
+.main__img {
+  position: absolute;
+  height: 750px;
+  right: 0%;
+  top: 97px;
+}
+
+.main__info {
+  padding-top: 100px;
+  margin-left: 130px;
+}
+
+.sponsors {
+  background: #1FBD8A;
+  padding-bottom: 140px;
+}
+
+.sponsors__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #FFF;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.world {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.world__block {
+  text-align: center;
+}
+
+.world__span {
+  color: #00CA90;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 9px;
+}
+
+.world__title {
+  color: #013A51;
+  font-size: 42px;
+  line-height: 56px;
+  margin-bottom: 13px;
+}
+
+.world__text {
+  margin: auto;
+  font-size: 18px;
+  line-height: 26px;
+  color: #013A51;
+  margin-bottom: 19px;
+  max-width: 846px;
+  width: 100%;
+}
+
+.world__buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.world__button {
+  padding: 17px 58px;
+  background: #00CA90;
+  color: #FFF;
+  font-size: 15px;
+  line-height: 16px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.world__button--primary {
+  background: #192F44;
+}
+
+.connect {
+  background: #fdf6d896;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.connect__block {
+  display: flex;
+  justify-content: center;
+}
+
+.connect__firstBlock {
+  margin-right: 200px;
+}
+
+.connect__span {
+  color: #00CA90;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.connect__title {
+  color: #013A51;
+  font-size: 41px;
+  line-height: 56px;
+  max-width: 467px;
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+.connect__text {
+  color: #013A51;
+  font-size: 21px;
+  line-height: 28px;
+  max-width: 518px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.connect__button {
+  padding: 7px 40px;
+  font-size: 14px;
+  line-height: 16px;
+  border: 2px solid #00CA90;
+  border-radius: 50px;
+  background: #fdf6d896;
+  color: #013A51;
+  cursor: pointer;
+}
+
+.connect__card {
+  max-width: 442px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.connect__card--title {
+  color: #013A51;
+  font-size: 23px;
+  line-height: 32px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.connect__card--text {
+  color: #5C7782;
+}
+/*# sourceMappingURL=style.css.map */
